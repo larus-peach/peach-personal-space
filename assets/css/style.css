@@ -29,3 +29,10 @@
   .about { padding-top: 70px; }
   .about-tags { display: grid; gap: 8px; }
 }
+
+/* HOME — profile image */
+.about-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(260px,390px); align-items:center; gap:clamp(36px,6vw,100px); }
+.about-content { min-width:0; }
+.about-photo { width:100%; aspect-ratio:1; overflow:hidden; background:#eee; }
+.about-photo img { display:block; width:100%; height:100%; object-fit:cover; }
+@media (max-width:650px) { .about-layout { grid-template-columns:1fr; gap:34px; } .about-photo { max-width:440px; } }
