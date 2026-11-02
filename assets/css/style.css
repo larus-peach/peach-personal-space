@@ -48,3 +48,23 @@
   .about-content .about-tags { margin-top: 20px; }
   .about-content .socials { margin-top: 24px; }
 }
+
+/* Hero identity: PEACH appears before the gallery */
+.hero { min-height: auto; padding-top: clamp(65px, 8vw, 115px); padding-bottom: 90px; }
+.hero-profile { margin-top: clamp(48px, 6vw, 76px); padding-top: 26px; border-top: 1px solid var(--line); }
+.hero-profile > .eyebrow { margin-bottom: 22px; }
+.hero-profile .about-layout { grid-template-columns: 96px minmax(0, 1fr); gap: 24px; align-items: center; }
+.hero-profile .about-photo { width: 96px; }
+.hero-profile .about-content h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin: 0; }
+.hero-profile .about-content .about-tags { margin-top: 15px; gap: 4px 16px; }
+.hero-profile .about-tags span { font-size: .72rem; }
+.hero-profile .about-content .socials { margin-top: 16px; }
+.hero .scroll-hint { position: static; margin-top: 60px; }
+.interest-card[href="car/"] .card-visual img { object-position: 50% 72%; }
+@media(max-width:650px) {
+  .hero { min-height: auto; padding-top: 65px; padding-bottom: 55px; }
+  .hero-profile .about-layout { grid-template-columns: 80px minmax(0, 1fr); gap: 16px; }
+  .hero-profile .about-photo { width: 80px; }
+  .hero-profile .about-tags span { font-size: .65rem; }
+  .hero .scroll-hint { margin-top: 45px; }
+}
