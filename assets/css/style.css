@@ -68,3 +68,13 @@
   .hero-profile .about-tags span { font-size: .65rem; }
   .hero .scroll-hint { margin-top: 45px; }
 }
+
+/* HOME — balanced title and profile sizing */
+.hero h1 { font-size: clamp(3.5rem, 8vw, 7rem); }
+.hero-profile .about-layout { grid-template-columns: 144px minmax(0, 1fr); gap: 28px; }
+.hero-profile .about-photo { width: 144px; }
+@media (max-width: 650px) {
+  .hero h1 { font-size: clamp(2.75rem, 10vw, 4rem); }
+  .hero-profile .about-layout { grid-template-columns: 112px minmax(0, 1fr); gap: 16px; }
+  .hero-profile .about-photo { width: 112px; }
+}
