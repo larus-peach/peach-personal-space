@@ -78,3 +78,8 @@
   .hero-profile .about-layout { grid-template-columns: 112px minmax(0, 1fr); gap: 16px; }
   .hero-profile .about-photo { width: 112px; }
 }
+
+/* Gallery image framing */
+.interest-card[href="idol/"] .card-visual img { object-position: 50% 74%; }
+.interest-card[href="baseball/"] .card-visual img { object-position: 50% 50%; }
+.interest-card[href="boatrace/"] .card-visual img { object-position: 50% 58%; }
