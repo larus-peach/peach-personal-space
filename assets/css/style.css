@@ -83,3 +83,21 @@
 .interest-card[href="idol/"] .card-visual img { object-position: 50% 74%; }
 .interest-card[href="baseball/"] .card-visual img { object-position: 50% 50%; }
 .interest-card[href="boatrace/"] .card-visual img { object-position: 50% 58%; }
+
+
+/* HOME — compact gallery and circular PEACH portrait */
+.hero-profile .about-photo { border-radius: 50%; }
+.hero-profile .about-photo img { border-radius: 50%; }
+/* Keep gallery photos smaller while preserving two columns on desktop. */
+#interests .interest-grid { max-width: 880px; margin-inline: auto; gap: 52px 26px; }
+#interests .card-visual { aspect-ratio: 4 / 5; }
+/* Compact favorites with natural wrapping on narrow screens. */
+.hero-profile .favorites { margin-top: 22px; display: grid; gap: 16px; }
+.hero-profile .favorite-group h3 { margin: 0 0 6px; font-size: .66rem; letter-spacing: .14em; font-weight: 600; color: var(--muted); }
+.hero-profile .favorite-group p { margin: 0; font-size: .83rem; line-height: 1.85; overflow-wrap: anywhere; }
+@media (max-width: 650px) {
+  #interests .interest-grid { max-width: 440px; gap: 36px; }
+  .hero-profile .about-layout { align-items: start; }
+  .hero-profile .favorites { margin-top: 18px; gap: 14px; }
+  .hero-profile .favorite-group p { font-size: .76rem; }
+}
