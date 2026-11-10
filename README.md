@@ -32,3 +32,6 @@ HOME order: BASEBALL → IDOL → CAR → BOAT RACE. Baseball page includes Supp
 `car/index.html` にS15 Spec-R AEROの車両紹介、Street-Focused.、The Details. を追加しました。見出しはCARページのみ小さめに調整。実車の写真はHOMEのCAR画像を使用しています。年式・ボディカラー・場所・サイドスカートは記載していません。
 写真を追加する場合は `assets/images/car/` に置き、`car/index.html` の `#car-photo-archive .car-photo-grid` に figure を追加して section の `hidden` を外してください。
 NISMOメーターの復刻品かどうか、BLITZインタークーラーの詳細モデルは未確認です。
+
+## Typography update (all pages)
+HOME / BASEBALL / IDOL / CAR / BOAT RACE now share the CAR page's compact page-heading and section-heading scale. The overrides are at the end of `assets/css/style.css`. Content, photos, and baseball statistics are unchanged.

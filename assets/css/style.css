@@ -127,3 +127,26 @@
 
 /* CAR / Quiet editorial spec sheet — intentionally smaller than other pages */
 .car-hero{padding:clamp(62px,8vw,105px) 0 68px}.car-hero h1{font-size:clamp(1.85rem,3.6vw,2.25rem);font-weight:550;letter-spacing:-.055em;line-height:1.2;margin:20px 0 12px}.car-hero-sub{font-size:.78rem;color:var(--muted);letter-spacing:.07em}.car-section{border-top:1px solid var(--line);padding:30px 0 75px}.car-section h2{font-size:clamp(1.35rem,2.5vw,1.5rem);font-weight:500;letter-spacing:-.045em;margin:15px 0 29px}.car-feature{margin:0;max-width:900px}.car-feature img{display:block;width:100%;max-height:520px;object-fit:cover;object-position:center 67%}.car-identity{margin-top:24px}.car-identity h3{font-size:clamp(1.4rem,3vw,1.75rem);font-weight:500;letter-spacing:-.045em;margin:0}.car-identity p{margin:7px 0 0;color:var(--muted);font-size:.86rem}.car-concept-title{font-size:clamp(1.1rem,2vw,1.25rem);font-weight:500;margin:0 0 14px}.car-concept-copy{max-width:650px;line-height:2;font-size:.9rem}.car-section-caption{font-size:.67rem;color:var(--muted);letter-spacing:.13em;margin:-12px 0 27px}.car-specs{border-top:1px solid var(--line)}.car-spec-row{display:grid;grid-template-columns:minmax(140px,28%) minmax(0,1fr);border-bottom:1px solid var(--line);gap:24px;padding:21px 10px}.car-spec-label{font-size:.7rem;letter-spacing:.08em;color:var(--muted);font-weight:600;padding-top:2px}.car-spec-value{font-size:.87rem;line-height:1.75;overflow-wrap:anywhere}.car-spec-dim{color:var(--muted)}.car-spec-stack{display:grid;gap:17px}.car-spec-sub{display:block;font-size:.66rem;letter-spacing:.1em;color:var(--muted);margin-bottom:5px}.car-spec-stack p{margin:0}.car-spec-stack ul{list-style:none;padding:0;margin:0;display:grid;gap:4px}.car-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.car-photo-grid figure{margin:0}.car-photo-grid img{display:block;width:100%;height:auto}.car-photo-grid figcaption{font-size:.8rem;color:var(--muted);margin-top:10px}.car-back{margin:5px 0 95px}@media(max-width:650px){.car-hero{padding:62px 0 55px}.car-hero h1{font-size:clamp(1.65rem,7vw,2rem)}.car-section{padding:27px 0 60px}.car-section h2{font-size:1.35rem}.car-feature img{max-height:360px}.car-spec-row{grid-template-columns:minmax(100px,32%) minmax(0,1fr);gap:13px;padding:18px 0}.car-spec-label{font-size:.63rem}.car-spec-value{font-size:.8rem}.car-photo-grid{grid-template-columns:1fr}}
+
+/* Shared editorial typography: match the compact CAR page across all pages. */
+:root { --page-heading-size: clamp(1.85rem, 3.6vw, 2.25rem); --section-heading-size: clamp(1.35rem, 2.5vw, 1.5rem); }
+.hero h1, .page-hero h1, .baseball-hero h1, .idol-hero h1, .car-hero h1 {
+  font-size: var(--page-heading-size);
+  line-height: 1.2;
+  letter-spacing: -.055em;
+  font-weight: 550;
+}
+.section h2, .section-head h2, .baseball-section-head h2, .idol-section h2, .car-section h2 {
+  font-size: var(--section-heading-size);
+  letter-spacing: -.045em;
+  font-weight: 500;
+}
+.hero-profile .about-content h2 { font-size: clamp(1.4rem, 3vw, 1.75rem); }
+@media (max-width: 650px) {
+  .hero h1, .page-hero h1, .baseball-hero h1, .idol-hero h1, .car-hero h1 {
+    font-size: clamp(1.65rem, 7vw, 2rem);
+  }
+  .section h2, .section-head h2, .baseball-section-head h2, .idol-section h2, .car-section h2 {
+    font-size: 1.35rem;
+  }
+}
