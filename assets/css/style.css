@@ -363,3 +363,42 @@ main:focus { outline: none; }
 @media (max-width: 650px) {
   .baseball-records { grid-template-columns: 1fr; }
 }
+
+/* HOME / a photographic gallery with a quiet, optional depth effect. */
+#interests .interest-grid { max-width: 100%; gap: 56px 40px; align-items: start; }
+#interests .card-visual { aspect-ratio: 5 / 4; isolation: isolate; }
+#interests .card-visual img { display: block; transition: transform .8s cubic-bezier(.2,.7,.2,1); }
+#interests .interest-card:nth-child(even) { margin-top: 64px; }
+#interests .interest-card[href="baseball/"] img { object-position: 50% 48%; }
+#interests .interest-card[href="idol/"] img { object-position: 50% 100%; }
+#interests .interest-card[href="car/"] img { object-position: 50% 72%; }
+#interests .interest-card[href="boatrace/"] img { object-position: 50% 60%; }
+#interests .card-info { margin-top: 0; padding-block: 18px; border-bottom: 1px solid var(--line); gap: 16px; }
+#interests .card-info h3 { font-size: .9375rem; letter-spacing: .12em; }
+#interests .arrow { font-size: 1.35rem; }
+#interests .interest-card:focus-visible .card-info { border-color: var(--ink); }
+.photo-depth { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0; }
+.is-depth .photo-depth { opacity: 1; }
+#interests .card-visual.is-depth img { transform: none; }
+@media (hover: hover) and (pointer: fine) {
+  #interests .interest-card:hover img { transform: scale(1.025); }
+  #interests .interest-card:hover .card-info { border-color: var(--ink); }
+}
+@media (max-width: 650px) {
+  #interests .interest-grid { gap: 24px; }
+  #interests .interest-card:nth-child(even) { margin-top: 0; }
+  #interests .card-visual { aspect-ratio: 6 / 5; }
+  #interests .card-info { padding-block: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #interests .interest-card:hover img, #interests .interest-card:hover .arrow { transform: none; }
+  .photo-depth { display: none; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero > div:first-child, .baseball-hero, .idol-hero, .car-hero, .boatrace-hero {
+    animation: archive-arrive .7s cubic-bezier(.2,.7,.2,1) both;
+  }
+  .is-depth .photo-depth { animation: photo-surface-in .35s ease both; }
+}
+@keyframes archive-arrive { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes photo-surface-in { from { opacity: 0; } to { opacity: 1; } }
