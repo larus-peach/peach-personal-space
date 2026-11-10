@@ -27,7 +27,8 @@ HOME order: BASEBALL → IDOL → CAR → BOAT RACE. Baseball page includes Supp
 「**あーぐれす**」は指定どおりの表記です。
 公式リンクは未確認URLを掲載しないため、`idol/index.html` のコメント内に追記用テンプレートを用意しています。URL確認後にコメントを解除し、各リンクを書き換えてください。
 
-## CAR page
-`car/index.html` にS15 Spec-R AEROの紹介、Street-Focused. コンセプト、The Details. の装着パーツ一覧を追加しました。写真は既存のユーザー提供画像 `assets/images/car/car-home.webp` を使用しています。アーム類、エアロ、メーター類は表の右列でまとめて表示します。サイドスカートは掲載していません。
 
-写真追加時は `car/index.html` の `PHOTO ARCHIVE` コメント内のテンプレートを有効化し、`assets/images/car/` に写真を配置してください。未確認のインタークーラー詳細モデル、NISMOメーターの復刻品区分、Defiの色や最大圧力は掲載していません。
+## CAR page
+`car/index.html` にS15 Spec-R AEROの車両紹介、Street-Focused.、The Details. を追加しました。見出しはCARページのみ小さめに調整。実車の写真はHOMEのCAR画像を使用しています。年式・ボディカラー・場所・サイドスカートは記載していません。
+写真を追加する場合は `assets/images/car/` に置き、`car/index.html` の `#car-photo-archive .car-photo-grid` に figure を追加して section の `hidden` を外してください。
+NISMOメーターの復刻品かどうか、BLITZインタークーラーの詳細モデルは未確認です。
