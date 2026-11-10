@@ -35,3 +35,7 @@ NISMOメーターの復刻品かどうか、BLITZインタークーラーの詳�
 
 ## Typography update (all pages)
 HOME / BASEBALL / IDOL / CAR / BOAT RACE now share the CAR page's compact page-heading and section-heading scale. The overrides are at the end of `assets/css/style.css`. Content, photos, and baseball statistics are unchanged.
+
+
+## Typography balance refinement
+BASEBALL / IDOL の見出し・数字・リスト本文の比率と余白を調整しました。全ページのコンパクトなページタイトル・セクション見出しの基準は維持しています。
