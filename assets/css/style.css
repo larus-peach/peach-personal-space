@@ -102,7 +102,7 @@
 }
 
 /* BASEBALL / Editorial Archive */
-.baseball-hero{padding:clamp(70px,9vw,120px) 0 100px}.baseball-hero h1{font-size:clamp(3rem,8vw,7.6rem);font-weight:600;letter-spacing:-.075em;line-height:1.03;margin:22px 0}.baseball-sub{color:var(--muted);font-size:.94rem}.baseball-since{border-top:1px solid var(--line);margin-top:65px;padding-top:24px;display:flex;align-items:baseline;gap:26px}.baseball-since span{font-size:.7rem;letter-spacing:.14em;color:var(--muted)}.baseball-since strong{font-size:clamp(2.8rem,7vw,5.8rem);letter-spacing:-.06em;font-weight:500}.baseball-section{border-top:1px solid var(--line);padding:40px 0 100px}.baseball-section-head h2{font-size:clamp(2.1rem,5vw,4.2rem);letter-spacing:-.06em;font-weight:500;margin:18px 0}.baseball-section-head p{font-size:.8rem;color:var(--muted);margin:0 0 32px}.baseball-records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:38px}.record-card{border:1px solid var(--line);padding:26px 22px;min-width:0}.record-year{font-size:.9rem;font-weight:600}.record-games{display:flex;align-items:baseline;gap:10px;margin:28px 0}.record-games strong{font-size:clamp(2.8rem,5vw,4.6rem);font-weight:500;letter-spacing:-.06em}.record-games span{font-size:.65rem;letter-spacing:.1em;color:var(--muted)}.record-results{font-size:clamp(.76rem,1.35vw,1rem);font-weight:600;white-space:nowrap}.record-results span{color:#b6b6b0;margin:0 3px}.record-rate{border-top:1px solid var(--line);padding-top:17px;margin-top:20px;display:flex;justify-content:space-between;gap:6px;font-size:.7rem;color:var(--muted);letter-spacing:.04em}.record-rate strong{color:var(--ink);font-size:.9rem}.player-list{margin-top:36px}.player-row{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:25px 0}.player-row:first-child{border-top:1px solid var(--line)}.player-row strong{font-size:clamp(1.25rem,2.4vw,1.8rem);font-weight:500}.player-row span{font-size:.72rem;letter-spacing:.1em;color:var(--muted)}.photo-archive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:36px}.archive-photo{margin:0}.archive-photo img{display:block;width:100%;height:auto}.archive-photo figcaption{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:12px;font-size:.8rem}.archive-photo figcaption small{color:var(--muted)}.baseball-back{margin:0 0 110px}@media(max-width:650px){.baseball-hero{padding:70px 0}.baseball-since{gap:12px;flex-direction:column}.baseball-section{padding:32px 0 75px}.baseball-records{grid-template-columns:1fr;gap:12px}.record-card{padding:20px}.record-games{margin:14px 0}.record-results{font-size:1rem}.player-row{display:block}.player-row span{display:block;margin-top:6px}.photo-archive-grid{grid-template-columns:1fr}}
+.baseball-hero{padding:clamp(70px,9vw,120px) 0 100px}.baseball-hero h1{font-size:clamp(3rem,8vw,7.6rem);font-weight:600;letter-spacing:-.075em;line-height:1.03;margin:22px 0}.baseball-sub{color:var(--muted);font-size:.94rem}.baseball-since{border-top:1px solid var(--line);margin-top:65px;padding-top:24px;display:flex;align-items:baseline;gap:26px}.baseball-since span{font-size:.7rem;letter-spacing:.14em;color:var(--muted)}.baseball-since strong{font-size:clamp(2.8rem,7vw,5.8rem);letter-spacing:-.06em;font-weight:500}.baseball-section{border-top:1px solid var(--line);padding:40px 0 100px}.baseball-section-head h2{font-size:clamp(2.1rem,5vw,4.2rem);letter-spacing:-.06em;font-weight:500;margin:18px 0}.baseball-section-head p{font-size:.8rem;color:var(--muted);margin:0 0 32px}.baseball-records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:38px}.record-card{border:1px solid var(--line);padding:26px 22px;min-width:0}.record-year{font-size:.9rem;font-weight:600}.record-games{display:flex;align-items:baseline;gap:10px;margin:28px 0}.record-games strong{font-size:clamp(2.8rem,5vw,4.6rem);font-weight:500;letter-spacing:-.06em}.record-games span{font-size:.65rem;letter-spacing:.1em;color:var(--muted)}.record-results{font-size:clamp(.76rem,1.35vw,1rem);font-weight:600;white-space:nowrap}.record-divider{color:#b6b6b0}.record-rate{border-top:1px solid var(--line);padding-top:17px;margin-top:20px;display:flex;justify-content:space-between;gap:6px;font-size:.7rem;color:var(--muted);letter-spacing:.04em}.record-rate strong{color:var(--ink);font-size:.9rem}.player-list{margin-top:36px}.player-row{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:25px 0}.player-row:first-child{border-top:1px solid var(--line)}.player-row strong{font-size:clamp(1.25rem,2.4vw,1.8rem);font-weight:500}.player-row span{font-size:.72rem;letter-spacing:.1em;color:var(--muted)}.photo-archive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:36px}.archive-photo{margin:0}.archive-photo img{display:block;width:100%;height:auto}.archive-photo figcaption{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:12px;font-size:.8rem}.archive-photo figcaption small{color:var(--muted)}.baseball-back{margin:0 0 110px}@media(max-width:650px){.baseball-hero{padding:70px 0}.baseball-since{gap:12px;flex-direction:column}.baseball-section{padding:32px 0 75px}.baseball-records{grid-template-columns:1fr;gap:12px}.record-card{padding:20px}.record-games{margin:14px 0}.record-results{font-size:1rem}.player-row{display:block}.player-row span{display:block;margin-top:6px}.photo-archive-grid{grid-template-columns:1fr}}
 
 
 /* IDOL / Typographic favorites archive */
@@ -265,7 +265,7 @@ h1, h2, h3 { overflow-wrap: anywhere; }
   font-size: clamp(1.0625rem, 1rem + .3vw, 1.25rem);
   line-height: 1.6;
 }
-.idol-song { font-size: var(--body-size); line-height: 1.85; overflow-wrap: break-word; }
+.idol-song { font-size: var(--body-size); line-height: 1.95; overflow-wrap: break-word; }
 .car-spec-row { grid-template-columns: minmax(0, 25%) minmax(0, 1fr); }
 .car-spec-label, .car-spec-sub {
   font-size: var(--label-size);
@@ -315,7 +315,7 @@ main:focus { outline: none; }
 .baseball-records { font-variant-numeric: tabular-nums; }
 .record-games strong { font-size: clamp(2.75rem, 2rem + 1.5vw, 3.5rem); }
 .record-results { display: flex; flex-wrap: wrap; gap: 0 .3em; }
-.record-results span { margin: 0; }
+.record-results > span { white-space: nowrap; }
 .idol-groups { column-gap: clamp(28px, 4vw, 52px); }
 .car-spec-value { min-width: 0; }
 .car-spec-dim { display: inline-block; max-width: 100%; }
@@ -348,7 +348,11 @@ main:focus { outline: none; }
   .baseball-hero, .idol-hero { padding-top: 48px; }
   .car-hero, .boatrace-hero { padding-top: 48px; }
   .baseball-section, .idol-section, .car-section, .boatrace-section { padding-bottom: 48px; }
-  .car-spec-row { grid-template-columns: minmax(0, 29%) minmax(0, 1fr); gap: 12px; }
+  .car-spec-row { grid-template-columns: minmax(min(34%, 7rem), 31%) minmax(0, 1fr); gap: 12px; align-items: start; }
+  .car-spec-label { padding-top: 0; }
+  .player-row span { margin-top: 4px; }
+  .idol-groups { row-gap: 32px; }
+  .idol-song { padding-block: 10px; }
   .archive-nav { padding-bottom: 36px; }
   .archive-nav-links { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; }
 }
