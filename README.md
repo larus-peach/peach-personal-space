@@ -16,6 +16,6 @@
 
 ## 技術構成
 
-HTML / CSS / Vanilla JavaScript による静的サイトです。フレームワークやビルドツールは使用していません。
+HTML / CSS / Vanilla JavaScript による静的サイトです。HOMEの写真には、操作時だけ読み込むThree.jsの控えめな立体表現を加えています。フレームワークや、開発時に必要なビルド工程はありません。
 
 更新方法・表示確認・GitHub Pages の設定は、[メンテナンスガイド](docs/maintenance.md)にまとめています。
