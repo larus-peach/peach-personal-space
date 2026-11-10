@@ -177,3 +177,21 @@
   .idol-group h3 { font-size: 1.05rem; }
   .idol-song { font-size: .9rem; }
 }
+
+/* BOAT RACE / photo-free editorial archive */
+.boatrace-hero{padding:clamp(62px,8vw,105px) 0 68px}
+.boatrace-hero h1{font-size:var(--page-heading-size);font-weight:550;letter-spacing:-.055em;line-height:1.2;margin:20px 0 12px}
+.boatrace-hero>p{font-size:.78rem;color:var(--muted);letter-spacing:.07em;margin:0}
+.boatrace-section{border-top:1px solid var(--line);padding:30px 0 75px}
+.boatrace-section h2{font-size:var(--section-heading-size);font-weight:500;letter-spacing:-.045em;margin:15px 0 29px}
+.boatrace-intro{font-size:.9rem;line-height:1.9;margin:0}
+.boatrace-racer-list{border-top:1px solid var(--line)}
+.boatrace-racer{border-bottom:1px solid var(--line);padding:24px 0;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.boatrace-racer h3{font-size:clamp(1.1rem,2vw,1.35rem);font-weight:500;letter-spacing:-.03em;margin:0 0 6px}
+.boatrace-roman{font-size:.68rem;color:var(--muted);letter-spacing:.1em;margin:0}
+.boatrace-meta{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:.78rem}
+.boatrace-venue{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:23px 0}
+.boatrace-venue h3{font-size:1.12rem;font-weight:500;letter-spacing:-.02em;margin:0 0 7px}
+.boatrace-venue p{color:var(--muted);font-size:.8rem;margin:0}
+.boatrace-back{margin:0 0 95px}
+@media(max-width:650px){.boatrace-hero{padding:62px 0 55px}.boatrace-hero h1{font-size:clamp(1.65rem,7vw,2rem)}.boatrace-section{padding:27px 0 60px}.boatrace-section h2{font-size:1.35rem}.boatrace-racer{align-items:flex-start;flex-direction:column;gap:11px}.boatrace-meta{gap:14px}}
