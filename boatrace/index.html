@@ -8,11 +8,15 @@
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/css/style.css">
   <script src="../assets/js/main.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Noto+Sans+JP:wght@400;500;600&amp;display=swap">
 </head>
 <body>
+<a class="skip-link" href="#main-content">本文へスキップ</a>
   <div class="container">
-    <header class="site-header"><a class="brand" href="../">PEACH.</a><nav class="nav"><a href="../#interests">INTERESTS</a><a href="../#about">ABOUT</a></nav></header>
-    <main>
+    <header class="site-header"><a class="brand" href="../">PEACH.</a><nav class="nav" aria-label="メインナビゲーション"><a href="../#interests">INTERESTS</a><a href="../#about">ABOUT</a></nav></header>
+    <main id="main-content" tabindex="-1">
       <section class="boatrace-hero">
         <div class="eyebrow">PERSONAL SPACE / INTERESTS</div>
         <h1>My Boat Race Archive.</h1>
@@ -44,7 +48,11 @@
         <div class="boatrace-venue"><h3>BOAT RACE EDOGAWA.</h3><p>ボートレース江戸川 / 東京都</p></div>
       </section>
       <p class="boatrace-back"><a class="back-link" href="../">← BACK TO HOME</a></p>
-    </main>
+    <nav class="archive-nav" aria-label="趣味のページ"><p class="eyebrow">EXPLORE INTERESTS</p><div class="archive-nav-links"><a href="../baseball/">BASEBALL</a>
+<a href="../idol/">IDOL</a>
+<a href="../car/">CAR</a>
+<a href="../boatrace/" aria-current="page">BOAT RACE</a></div></nav>
+</main>
     <footer class="footer"><span>© PEACH</span><a href="../">HOME ↗</a></footer>
   </div>
 </body>
