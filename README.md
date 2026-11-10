@@ -18,14 +18,4 @@
 
 HTML / CSS / Vanilla JavaScript による静的サイトです。フレームワークやビルドツールは使用していません。
 
-## ローカルで確認
-
-Python 3 が使える環境で、リポジトリのルートから実行します。
-
-```sh
-python3 -m http.server 8000 --bind 127.0.0.1
-```
-
-ブラウザで `http://localhost:8000/` を開いてください。追加パッケージのインストールは不要です。
-
 更新方法・表示確認・GitHub Pages の設定は、[メンテナンスガイド](docs/maintenance.md)にまとめています。
